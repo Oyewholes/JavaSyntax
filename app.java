@@ -1,7 +1,5 @@
 //package ten;
 
-import java.util.Scanner;
-
 public class app {
 	public static void main(String [] args) {
 		
@@ -60,25 +58,33 @@ public class app {
         // System.out.printf("Difference is %d%n", difference);
         // System.out.printf("Division is %d%n", division);
 
-        Scanner input = new Scanner(System.in);
-        int number1;
-        int number2;
-        System.out.println("Enter first integer: ");
-        number1 = input.nextInt();
-        System.out.println("Enter second integer: ");
-        number2 = input.nextInt();
-        if (number1 == number2)
-            System.out.printf("%d == %d%n", number1, number2);
-        if (number1 != number2)
-            System.out.printf("%d != %d%n", number1, number2);
-        if (number1 < number2)
-            System.out.printf("%d < %d%n", number1, number2);
-        if (number1 > number2)
-            System.out.printf("%d > %d%n", number1, number2);
-        if (number1 <= number2)
-            System.out.printf("%d <= %d%n", number1, number2);
-        if (number1 >= number2)
-            System.out.printf("%d >= %d%n", number1, number2);
+    //     Scanner input = new Scanner(System.in);
+    //     int number1;
+    //     int number2;
+    //     System.out.println("Enter first integer: ");
+    //     number1 = input.nextInt();
+    //     System.out.println("Enter second integer: ");
+    //     number2 = input.nextInt();
+    //     if (number1 == number2)
+    //         System.out.printf("%d == %d%n", number1, number2);
+    //     if (number1 != number2)
+    //         System.out.printf("%d != %d%n", number1, number2);
+    //     if (number1 < number2)
+    //         System.out.printf("%d < %d%n", number1, number2);
+    //     if (number1 > number2)
+    //         System.out.printf("%d > %d%n", number1, number2);
+    //     if (number1 <= number2)
+    //         System.out.printf("%d <= %d%n", number1, number2);
+    //     if (number1 >= number2)
+    //         System.out.printf("%d >= %d%n", number1, number2);
+
+    Student myStudent = new Student();
+    myStudent.firstname = "John";
+    myStudent.lastname = "Doe";
+    myStudent.age = 19;
+    myStudent.gpa = 3.6;
+    myStudent.major = "Computer Science";
+    myStudent.onProbation = false;
 	}
 
 }
